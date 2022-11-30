@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+}
+
+.button {
+  border: none;
+  width: 200px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: large;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #d4d4d4;
+}
+
+button:active {
+  box-shadow: inset 0px 0px 2px 0px;
+}
